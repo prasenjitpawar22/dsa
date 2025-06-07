@@ -1,5 +1,8 @@
 import collections
-
+'''
+for cycle detection in directed graph with DFS we use recursion stack,
+to keep track of current visited nodes.
+'''
 class Solution:
     def isCycle(self, V, edges):
         # dfs
