@@ -1,6 +1,6 @@
 import collections
 ''' 
-Undirected graph cycle detection we use - parent - to check if not coming from the save prev vertex.
+Undirected graph cycle detection we use - parent - to check if not coming from the same prev vertex.
 '''
 class Solution:
     def isCycle(self, V, edges):
